@@ -1,0 +1,17 @@
+.main-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-container img{
+    height: 40vh;
+}
+
+.image-container {
+    display: inline-block;
+    text-align: center;
+    margin: 1px; /* Add spacing between containers */
+}

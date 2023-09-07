@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Kug gusto mo maglagay ng background img */
+body{
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(60, 3, 72, 0.505),  rgba(214, 71, 227, 0.626)), url(/Images/Ayentot\ wo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background-color: #000031; */
+}
+
+/* .greetings{
+    font-size: 100px;
+    color: white;
+    position: fixed;
+    left: 300px;
+    top: 50px;
+} */
+
+
+/* ANIMATion TEXT */
+.wrapper {padding-top: 10%;
+    height: 15%;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    color: white;
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+/* Footer */
+footer{
+    background-color: #2b2b2b70;
+}
+footer div{
+    color: white;
+    font-weight: 100;
+    padding-top: 30px;
+    position: relative; /* Fix the icons to the viewport */
+    top: 0;
+    display: flex; /* Use flexbox to align icons horizontally */
+    justify-content: center; /* Center icons horizontally */
+}
+.icon-container {
+    margin-top: -40px;
+    display: flex; /* Use flexbox to align icons horizontally */
+    justify-content: center; /* Center icons horizontally */
+    position: relative; /* Fix the icons to the viewport */
+    bottom: 0; /* Align icons to the bottom of the viewport */
+    width: 100%; /* Make the container full-width */
+    padding: 40px; /* Optional: Add some padding */
+}
+
+.icon {
+    margin-right: 40px; /* Add some spacing between icons */
+}
+
+.icon img{
+    width: 30px;
+}
+
+/* hbddd */
+.image-container-hbd a{
+    position: absolute;
+    top: 30px;
+    left: 900px;
+
+    width: 70%
+}
+
+.image-container-hbd {
+    display: none;
+    animation: fadeIn 2s ease-in-out 3s forwards; /* 10s delay */
+}
+
+@keyframes fadeIn {
+    to {
+        display: block;
+    }
+}
